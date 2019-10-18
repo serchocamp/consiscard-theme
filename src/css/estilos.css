@@ -1,0 +1,182 @@
+html {
+	font-size: 16px;
+}
+.navbar-brand {
+	color: #545452;
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+.encabezado {
+	margin-bottom: 0;
+}
+
+.encabezado .nav li a {
+	color: #33A968;
+	font-size: 1rem;
+}
+
+.encabezado .nav li a:hover {
+	background: transparent;
+	text-decoration: underline;
+}
+
+.separador {
+	color: #545452;
+	padding: 15px 5px;
+}
+
+.slogan {
+	color: #FFF;
+	font-size: 2rem;
+	position: absolute;
+	left: 60%;
+	top: 20%;
+	max-width: 30%;
+}
+
+.slogan p {
+	margin-bottom: 25px;
+}
+
+/* SECCIONES */
+/* beneficios */
+.beneficios .icono {
+	height: 50px;
+}
+
+.beneficios .subtitulo {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.beneficios p {
+	font-size: 1rem;
+}
+
+/* Solicita */
+.solicita .form-control {
+	border: none;
+	border-bottom: 1px solid #232323;
+	border-radius: 0;
+	box-shadow: none;
+	font-size: 1.1rem;
+	padding: 20px 0;
+}
+
+/* Mi tarjeta */
+.tarjeta .fecha {
+	display: inline-block;
+}
+
+.tarjeta  .apagar {
+	display: inline-block;
+	float: right;
+}
+
+.tarjeta .table .icono {
+	border: none;
+	width: 35px;
+}
+
+.tarjeta .table .icono img {
+	height: 35px;
+}
+
+.tarjeta .table .porcentaje {
+	color: #CCC;
+	font-size: .8rem;
+}
+
+.tarjeta .table .glyphicon-menu-down {
+	color: #33A968;
+}
+
+.movimientos .subtitulo {
+	margin-top: 60px;
+}
+
+.movimientos .contenedor {
+	padding: 15px 50px;
+}
+
+.movimientos .table th {
+	font-size: .8rem;
+}
+/* Pie de página */
+.piePagina {
+	background: #F2F2F2;
+	color: #232323;
+}
+
+.piePagina p {
+	padding-top: 25px;
+}
+
+/* Elementos genrales */
+.seccion {
+	padding: 30px 0;
+}
+
+.tarjeta {
+	background: #FFF;
+	border-radius: 8px;
+	box-shadow: 1px 1px 5px #CCC;
+	margin: 15px 25px;
+	padding: 15px 25px;
+}
+
+.tarjeta img {
+	margin: 0 auto;
+}
+
+.titulo {
+	font-weight: bold;
+}
+
+.subtitulo {
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+.btn {
+	border-radius: 20px;
+	border: none;
+	font-size: 1.1rem;
+	padding: 10px 50px;
+}
+
+.btn-primary {
+	background: #4DCBCC;
+}
+
+.btn-lg {
+	font-weight: bold;
+}
+
+hr {
+	border-color: #232323;
+	margin: 0;
+}
+
+/* Utilerias */
+.bg-primario {
+	background: #F4F4F4;
+}
+
+.p-relative {
+	position: relative;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.mb-40 {
+	margin-bottom: 40px;
+}
+
+
+.negrita {
+	font-weight: bold;
+}
