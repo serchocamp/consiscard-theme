@@ -1,75 +1,10 @@
 /* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
 
 /* inject:imports */
+
+@import 'liferay-font-awesome/scss/font-awesome';
+@import 'liferay-font-awesome/scss/glyphicons';
+
 /* endinject */
 
 /* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
-
-#bs-example-navbar-collapse-1 {
-    width: 80%;
-    position: absolute;
-    float: right;
-    text-align: right;
-    display: block;
-}
-.container-fluid-max-xl {
-    max-width: 100%;
-}
-
-.portlet-content.portlet-content-editable {
-    padding: 0;
-}
-
-section.bg-.px-0.py-0 .container-fluid .row {
-    margin: 0!important;
-    }
-  section.bg-.px-0.py-0 .container-fluid .row .col.col-12 {
-        padding: 0!important;
-    }
-    .portlet-title-text {
-        display: none;
-        }
-
-
-
-        .collapse:not(.show) {
-        	display: block;
-        }
-        .portlet-forms {
-          width: 40%;
-          margin-left: 30%;
-          margin-right: 30%;
-      }
-      .modelo-sandbox {
-    background: #000000db!important;
-}
-
-        @media screen and (min-width: 480px) {
-
-        }
-
-
-        @media screen and (max-width: 480px) {
-          .collapse:not(.show) {
-        		display: none;
-        	}
-        	#bs-example-navbar-collapse-1 {
-        	    width: 90%;
-        	    top: 50%;
-        	    background: #11d6cd;
-        	    position: absolute;
-        	    text-align: initial;
-                display: none;
-        	}
-
-    .navbar-collapse.collapse.show {
-    display: block !important;
-}
-
-.portlet-forms {
-    width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
-}
-
-        }
